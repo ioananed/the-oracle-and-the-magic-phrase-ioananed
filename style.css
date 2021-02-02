@@ -1,0 +1,81 @@
+body{
+    background-image: url("./theodor-eilertsen-photography-qfPYLIboiUg-unsplash.jpg");
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.header{
+    background-color: skyblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px 0px 15px 0px; 
+-moz-border-radius: 15px 0px 15px 0px; 
+-webkit-border-radius: 15px 0px 15px 0px; 
+border: 2px solid steelblue;
+
+}
+
+
+h1.fst-italic{
+    position: right;
+    color: wheat;
+    position: center;
+    text-align: center;
+    text-shadow: steelblue;
+}
+
+img.logo{
+  width: 100px;
+  height: 100px;
+}
+
+h3{
+    text-align: center;
+    color: yellowgreen;
+    font-family: brush script M7, cursive;
+    background-color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+textarea{
+    position: center;
+    border-bottom-left-radius: 0 10px 13px;
+}
+
+.textarea{
+    position: center;
+    width: 1240px;
+    height: 300px;
+    border: 2px solid yellowgreen;
+    background-color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+.magic-btn{
+    transition-duration: 0.6s;
+    background-color: azure;
+    border: 2px solid #dd2727;
+    height: 50px;
+    width: 100px;
+    border-radius: 2px;
+-webkit-border-radius: 10px 10px 10px 10px; 
+margin:auto;
+display:block;
+  
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(238, 73, 73);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+footer{
+    margin-left: 20px;
+    color: white;
+}

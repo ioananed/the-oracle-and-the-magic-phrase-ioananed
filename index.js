@@ -1,9 +1,8 @@
-// Use the skeleton bellow as a basis for your script
-var generateBtn = document.querySelector("#magic-btn");
+   
+     var magicPhraseDisplay = document.querySelector("#magic-phrase");
 
 
-
-function makeSomeMagic(){
+   export function makeSomeMagic(){
      var patient = confirm("Are you an impatient person?");
      var sports = confirm("Do you like or practice any sports?");
      var puzzles = confirm("Do you like puzzles?");
@@ -20,8 +19,6 @@ function makeSomeMagic(){
 
     if(patient){
       count--;
-    }else if(!patient){
-      count++
     }
     if(sports){
      count++;
@@ -50,7 +47,6 @@ function makeSomeMagic(){
    if(details){
      count++;
    }
- 
 
   
 
@@ -64,20 +60,9 @@ function makeSomeMagic(){
     }else if (count === 7){
       return "You are doing well but you can do it much better! Your future is soso, keep going!≧◉◡◉≦";
     }else if (count === 6){
-      return "You can do it much, much, much better. You have to keep going but you are just beginning to grew :)";
-    }else {
-      return "Dude, c´mon you know you can do it a lot much better than this!! Just like one very wise and successful man said: \" I believe in myself; My back hurts in order to let my wings sprout. \" So, let your wings sprout and fill your future with success!!ᕙ(`▿´)ᕗ ";
+      return "You can do it much, much, much better. You have to keep going but you are just beginning to grew";
+    }else{
+      return "Dude, c´mon you know you can do it a lot much better than this!! Just like one very wise ans successful man said: \" my back hurts in order to let my wings sprout. \" So, let your wings sprout and fill your future with success!!ᕙ(`▿´)ᕗ ";
     }
+
    }
-
-
-
-function displayMagicPhrase() {
-  var magicPhrase = makeSomeMagic();
-  var magicPhraseDisplay = document.querySelector("#magic-phrase");
-
-  magicPhraseDisplay.value = magicPhrase;
-}
-
-// Attach event listener to the magi button
-generateBtn.addEventListener("click", displayMagicPhrase);

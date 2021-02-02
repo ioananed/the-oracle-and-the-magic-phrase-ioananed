@@ -6,19 +6,24 @@
     <!-- Feeel free to add Bootstrap and the Google Font of your choice -->
     <title>The Oracle - Magic Phrase</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="script.js"></script>
+</head>
 
   <body>
     <div>
-      <div>
-        <h1>The Oracle will predict your Future <span>🍄</span></h1>
+      <div class="header">
+        
+        <h1  class="fst-italic"><img class="logo" src="./pixlr-bg-result.png" alt="logo" />The Oracle will predict your Future<img class="logo" src="./pixlr-bg-result.png" alt="logo" /></h1>
       </div>
       <div>
         <div>
           <h3>Generate a Magic Phrase</h3>
         </div>
+      <div class="textarea1"> 
         <div>
-          <textarea
+          <textarea class="textarea"
             disabled
             readonly
             id="magic-phrase"
@@ -27,13 +32,16 @@
           ></textarea>
         </div>
         <div>
-          <button id="magic-btn">Magic</button>
+          <button onclick="displayMagicPhrase()" class="magic-btn" id="magic-btn">Magic</button>
         </div>
       </div>
+    
       <footer>
-        <p>Talk to the oracle, it is free <span>😊</span></p>
+        <p>Talk to the oracle, it is free <span>😊😜</span></p>
       </footer>
     </div>
-    <script src="script.js"></script>
+  </div>
+  
+    
   </body>
 </html>
